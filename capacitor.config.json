@@ -1,0 +1,20 @@
+{
+  "appId": "uz.tikuvpro.app",
+  "appName": "TIKUV PRO",
+  "webDir": "public",
+  "backgroundColor": "#0f766e",
+  "android": {
+    "allowMixedContent": false
+  },
+  "ios": {
+    "contentInset": "automatic"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "backgroundColor": "#0f766e",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    }
+  }
+}

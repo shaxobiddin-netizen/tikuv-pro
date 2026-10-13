@@ -1,0 +1,28 @@
+{
+  "name": "tikuv-pro",
+  "version": "1.0.0",
+  "description": "TIKUV PRO — tikuvchilik ishlab chiqarishini boshqarish tizimi (admin, xodim, mijoz)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node scripts/smoke-test.js",
+    "test:ui": "node scripts/ui-harness.js",
+    "cap:sync": "cap sync",
+    "cap:android": "cap sync android && echo \"Android Studio'da ochish: npx cap open android\"",
+    "cap:ios": "cap sync ios && echo \"Xcode'da ochish: npx cap open ios (faqat macOS)\""
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/ios": "^6.2.0",
+    "@capacitor/push-notifications": "^6.0.2",
+    "@capacitor/splash-screen": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT"
+}
